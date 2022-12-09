@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SucessLogin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Information"
+        android:id="@+id/userinfo"
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_below="@+id/userinfo"
+        android:id="@+id/username"
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_below="@+id/username"
+        android:id="@+id/useremail"
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:layout_below="@+id/useremail"
+        android:id="@+id/userphone"
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+
+</RelativeLayout>
